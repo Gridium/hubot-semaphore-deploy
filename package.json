@@ -1,0 +1,24 @@
+{
+  "name": "hubot-semaphore-deploy",
+  "version": "0.1.0",
+  "description": "Hubot plugin for Semaphore's deployment API",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gridium/hubot-semaphore-deploy"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "semaphore"
+  ],
+  "author": "Ben Straub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gridium/hubot-semaphore-deploy/issues"
+  },
+  "homepage": "https://github.com/gridium/hubot-semaphore-deploy"
+}
