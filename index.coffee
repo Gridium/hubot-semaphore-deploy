@@ -39,8 +39,8 @@ deploy = (msg, project, branch, server) ->
         [branch_obj] =  (b for b in project_obj.branches when b.branch_name == branch)
         unless branch_obj
             return msg.reply "Can't find branch #{project}/#{branch}"
-        unless branch_obj.result == 'passed'
-            return msg.reply "#{project}/#{branch} – last build is #{branch_obj.result}. Aborting deploy."
+        # unless branch_obj.result == 'passed'
+        #     return msg.reply "#{project}/#{branch} – last build is #{branch_obj.result}. Aborting deploy."
         [server_obj] = (s for s in project_obj.servers when s.server_name == server)
         unless server_obj
             return msg.reply "Can't find server #{server} for project #{project}"
